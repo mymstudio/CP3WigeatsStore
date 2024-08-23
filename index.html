@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CP 第三方控件商城</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sober/dist/sober.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <img src="https://cp.cocotais.cn/assets/6630359a19.png" alt="LOGO" width="50px" style="margin-top: 24px;">
+        <h1 style="margin: 0px; margin-top: 12px; color: #225be0; font-size: 30px;">CP 第三方控件商城</h1>
+        <p style="margin: 16px; margin-top: 8px; text-align: center;">欢迎来到 CP 第三方控件商城，这是一个第三方、开箱即用的控件商城<br>这里有许多（并不）优秀的第三方控件供您选择</p>
+        <div style="gap: 8px; display: flex; margin-bottom: 8px;">
+        <button style="
+        width: auto;
+        display: none;
+        height: 32px;   
+        border: 1px solid #225be0;
+        color: #225be0;    
+        padding-left: 0px;
+        margin-right:5px;
+        border-radius: 10px;
+        padding: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: white;
+        ">上传控件</button>
+        <button style="
+        width: auto;
+        display: none;
+        height: 32px;   
+        border: 1px solid #e07e22;
+        color: #e07e22;    
+        padding-left: 0px;
+        margin-right:5px;
+        border-radius: 10px;
+        padding: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: white;
+        ">我的控件</button>
+        <s-dialog style="
+        background-color: white;
+        ">
+          <s-button slot="trigger" style="
+            width: auto;
+            height: 32px;   
+            border: 1px solid #e0225b;
+            color: #e0225b;    
+            padding-left: 0px;
+            margin-right:5px;
+            border-radius: 10px;
+            padding: 6px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: white;
+          "> 导入方法 </s-button>
+          <div slot="headline"> 如何导入控件到编辑器中 </div>
+          <div slot="text">
+            1.选择你想要的控件，点击“复制链接”按钮，自动复制控件链接。<br>
+            2.到CP编辑器中，左上角点击“导入自定义控件”按钮，在下方“文件名(N):”后面的输入框，直接粘贴控件链接，确定导入。<br>
+            3.导入完毕，CP编辑器上方会弹出成功提示框，如未成功，可能是控件bug或文件链接失效，可在CP官方群反馈。<br>
+          </div>
+          <s-button slot="action" type="text" style="background-color: #225be0; color: white;">确定</s-button>              
+        </s-dialog>       
+        </div>
+        <div>
+    <span style="font-size: 15px; margin-right: 6px;">最近更新：<span style="color: #225be0; font-weight: 900;">2024-8-23</span>  总数：<span style="color: #225be0; font-weight: 900;">2</span> 个</span>  
+    <a href="" style="color: #225be0; text-decoration: none; font-weight: 900; font-size: 15px;">安装油猴插件（开发中）</a>          
+        </div>
+
+    </div>
+    <div class="card">
+    <div class="content">
+        <div class="c">
+            <div class="cardbk">
+                 <img src="https://static.codemao.cn/pickduck/HyDFN1LjR.png?hash=Fl1MfHy2197H1VvPnKi0QWU0so_p" alt="" style="
+                 border-radius: 9px 0px 0px 8px;
+                 width: 110px;
+                 height: 168px;
+                 ">
+                 <div style="width: 100%; height: 100%;">
+                   <h3 style=" margin: 0px; margin-left: 16px; margin-top: 16px;">计时器</h3>
+                   <span style=" margin: 0px; margin-left: 16px; margin-top: 0px; color: #808080;">zx</span>
+                   <p style=" margin: 0px; margin-left: 16px; margin-top: 2px; margin-bottom: 40px; font-size: 14px;">这是一个计时器</p>
+                 <div style="width: 100%; height: 1px; background-color: #e0e0e0;"></div> 
+                 <div style="
+                 width: 97%; 
+                 height: 45px;         
+                 display: flex;
+                 align-items: center;
+                 justify-content: end;
+                 margin-right: 16px;
+                 flex-direction: row;">
+                    <button style="
+                    width: 72px;
+                    height: 28px;
+                    border-radius: 8px;
+                    background-color: #3f79ff;
+                    border: none;
+                    color: white;
+                    " id="copyBtn" onclick="copyBtn()">复制链接</button>
+                 </div>      
+                 </div>
+                </div>            
+             </div>
+        <div class="c">
+            <div class="cardbk">
+                 <img src="https://static.codemao.cn/pickduck/rktZ6eLi0.png?hash=FkApSTwVvRDOUNjh9pGIQAy-Lf8Q" alt="" style="
+                 border-radius: 9px 0px 0px 8px;
+                 width: 110px;
+                 height: 168px;
+                 ">
+                 <div style="width: 100%; height: 100%;">
+                   <h3 style=" margin: 0px; margin-left: 16px; margin-top: 16px;">网页框</h3>
+                   <span style=" margin: 0px; margin-left: 16px; margin-top: 0px; color: #808080; font-size: 14px;">hhcl233</span>
+                   <p style=" margin: 0px; margin-left: 16px; margin-top: 2px; margin-bottom: 40px; font-size: 14px;">这是一个网页框</p>
+                 <div style="width: 100%; height: 1px; background-color: #e0e0e0;"></div> 
+                 <div style="
+                 width: 97%; 
+                 height: 45px;         
+                 display: flex;
+                 align-items: center;
+                 justify-content: end;
+                 margin-right: 16px;
+                 flex-direction: row;">
+                    <button style="
+                    width: 72px;
+                    height: 28px;
+                    border-radius: 8px;
+                    background-color: #3f79ff;
+                    border: none;
+                    color: white;
+                    " id="copyBtn1" onclick="copyBtn1()">复制链接</button>
+                 </div>      
+                 </div>
+                </div>            
+             </div>
+    </div>        
+    </div>
+<script>
+    function copyBtn() {
+    const btn = document.querySelector('#copyBtn');
+    const input = document.createElement('input');
+    document.body.appendChild(input);
+    input.setAttribute('value', 'https://static.codemao.cn/pickduck/rJyQDgUjA.js?hash=FoC-TbrOzfHsuyJRRbuk0Vr2NyjH');
+    input.select();
+    if (document.execCommand('copy')) {
+        document.execCommand('copy');
+        console.log('复制成功');
+    }
+    document.body.removeChild(input);
+    btn.innerText = '复制成功';
+    setTimeout(() =>     btn.innerText = '复制链接', 1000)
+    
+    }
+    function copyBtn1() {
+    const btn = document.querySelector('#copyBtn1');
+    const input = document.createElement('input');
+    document.body.appendChild(input);
+    input.setAttribute('value', 'https://static.codemao.cn/pickduck/rk0l0xLo0.js?hash=FueR1HHG30vvOpnDm4Mi3CVTUakq');
+    input.select();
+    if (document.execCommand('copy')) {
+        document.execCommand('copy');
+        console.log('复制成功');
+    }
+    document.body.removeChild(input);
+    btn.innerText = '复制成功';
+    setTimeout(() =>     btn.innerText = '复制链接', 1000)
+    }
+</script>
+</body>
+</html>
