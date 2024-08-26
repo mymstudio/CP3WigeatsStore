@@ -304,6 +304,15 @@ table1.onGetData((json, id ,url) =>{
     table1.getTableData({page:1,limit:30,id:'getTableData'});   
 
 </script>
-
+<script type="text/javascript">
+        document.onkeydown = function () {
+            if (window.event && window.event.keyCode == 123) {
+                event.keyCode = 0;
+                event.returnValue = false;
+                return false;
+            }
+        };
+</script>
 </body>
 </html>
+
